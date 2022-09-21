@@ -1,0 +1,31 @@
+body {
+    background-color: #fff
+}
+
+#auth {
+    height: 100vh;
+    overflow-x: hidden
+}
+
+#auth #auth-left {
+    padding: 5rem 8rem
+}
+
+#auth #auth-left .auth-logo {
+    margin-bottom: 1rem
+}
+
+#auth #auth-left .auth-logo img {
+    width: 100%;
+    margin: 15px;
+}
+
+#div_error {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    #auth #auth-left {
+        padding: 5rem
+    }
+}

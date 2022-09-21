@@ -1,0 +1,70 @@
+.chat-start{
+    max-height: 60vh;
+    overflow: auto;
+}
+
+.chat {
+    border-radius: 5px
+}
+
+.chat.chat-left .chat-message {
+    background: #78e08f !important;
+    float: left !important;
+    color: #fff
+}
+.chat.chat-right .chat-message {
+    background: #5900b2 !important;
+    float: right !important;
+    color: #fff;
+
+}
+.chat-right .dateSend{
+    color: #181717;
+    position: relative;
+    font-size: 10px;
+    clear: both !important;
+    text-align: right;
+    margin-bottom: -.2em;
+}
+.chat-left .dateSend{
+    color: #181717;
+    position: relative;
+    font-size: 10px;
+    clear: both !important;
+    text-align: left;
+    margin-bottom: -.2em;
+}
+.chat .chat-message {
+    text-align: left !important;
+    float: right !important;
+    margin: .2rem 0 1.8rem .2rem !important;
+    color: #525361;
+    background-color: #fafbfb !important;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .3) !important;
+    padding: .75rem 1rem !important;
+    position: relative !important;
+    max-width: calc(100% - 5rem) !important;
+    clear: both !important;
+    word-break: break-word !important;
+    border-radius: 25px !important
+}
+
+.chat-start .openMessages :hover{
+    cursor: pointer;
+}
+
+#divMessages{
+    display: none;
+}
+
+.card-footer textarea{
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 100% !important;
+}
